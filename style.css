@@ -46,7 +46,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 40vw;
     height: 100vh;
     background-color: #0fc6c7;
     transform: translate(-90%);
