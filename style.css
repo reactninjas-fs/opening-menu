@@ -19,7 +19,6 @@ body {
     font-size: 3rem;
     color: #fff;
     font-weight: bolder;
-    margin-right: 25vw;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -75,4 +74,20 @@ body {
 .container:hover {
     transform: translate(0%);
     transition: ease-in 350ms;
+}
+
+@media (max-width: 950px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    .menu-items a {
+        font-size: 1.5rem;
+    }
+
+    .menu-bar {
+        justify-content: space-between;
+        align-items: center;
+        font-size: 3rem;
+    }
 }
