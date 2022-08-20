@@ -52,7 +52,7 @@ body {
     visibility: hidden;
 }
 
-.container:hover {
+.container:hover, .menu-bar:hover {
     transform: translate(0%);
     transition: ease-in 350ms;
     visibility: visible;
@@ -201,31 +201,29 @@ body {
 
 @media (max-width: 970px) {
     .heading {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     .menu-items a {
         font-size: 1.5rem;
     }
+   
+    .container:hover {
+        width: 44%;
+    }
 
     .menu-bar {
-        justify-content: space-between;
-        align-items: center;
         font-size: 2rem;
-        gap: 1rem;
-        padding: 1rem;
-        width: fit-content;
+        gap: 2rem;
+        padding: 0.5rem;
+        width: 40vw;
     }
 
-    .container {
-        transform: translate(-80%);
-    }
+    
 
-    .container:hover {
-        width: fit-content;
-    }
+    
 
-    .fa-arrow-right {
-        margin-left: 0.5rem;
-    }
+
+    
+
 }
