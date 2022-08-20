@@ -198,6 +198,19 @@ body {
 
 }
 
+@media (max-width: 1280px) {
+    .menu-bar {
+        font-size: 2.5rem;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .container {
+        transform: translate(-85%);
+    }
+  
+}
+
 @media (max-width: 970px) {
     .heading {
         font-size: 2rem;
@@ -208,11 +221,10 @@ body {
     }
 
     .menu-bar {
-        justify-content: space-between;
-        align-items: center;
         font-size: 2rem;
         gap: 1rem;
         padding: 1rem;
+        width: fit-content;
     }
 
     .container {
@@ -220,6 +232,6 @@ body {
     }
 
     .fa-arrow-right {
-        margin-left: 1rem;
+        margin-left: 5rem;
     }
 }
